@@ -1,6 +1,17 @@
 function App(){
     return (
-        <body>Hello, this is my first login form! <br>Lets create it!</br></body>
+        <>
+            <div>
+                <lable>Email ID:</lable>
+                <input  type="email" placeholder="email"></input>
+                <br></br>
+                <lable>Password</lable>
+                <input></input>
+                <br></br>
+                <button>Login</button>
+                <button>Cancel</button>
+            </div>
+        </>
     );
 }
 export default App;
