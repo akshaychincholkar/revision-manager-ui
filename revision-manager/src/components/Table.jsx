@@ -19,10 +19,10 @@ export const Table = () => {
                         <td>22/05/2023</td>
                         <td>Concurrency</td>
                         <td>Java</td>
-                        <span>
+                        <span className="actions">
                             <td>
                                 <BsFillPencilFill/>  
-                                <BsFillTrashFill/>
+                                <BsFillTrashFill className="delete-btn"/>
                             </td>
                         </span>
                     </tr>
@@ -30,10 +30,10 @@ export const Table = () => {
                         <td>03/06/2023</td>
                         <td>AWS</td>
                         <td>cloud</td>
-                        <span>
+                        <span className="actions"> 
                             <td>
                                 <BsFillPencilFill/>  
-                                <BsFillTrashFill/>
+                                <BsFillTrashFill className="delete-btn"/>
                             </td>
                         </span>
                     </tr>

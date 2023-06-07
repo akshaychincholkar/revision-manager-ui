@@ -45,7 +45,15 @@
 .expand{
     width: 100%;
 }
-.actions{
+.actions {
     display: flex;
     justify-content: space-around;
+    gap: 25px;
+
+}
+.actions svg{
+    cursor: pointer;
+}
+.delete-btn{
+    color: red;
 }
